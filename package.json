@@ -2,7 +2,7 @@
     "name": "pharo-theme",
     "displayName": "Pharo Theme",
     "description": "Pharo inspired dark them",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "victorzevallos",
     "engines": {
         "vscode": "^1.55.0"
