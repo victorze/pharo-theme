@@ -3,6 +3,7 @@
     "displayName": "Pharo Theme",
     "description": "Pharo inspired dark them",
     "version": "1.0.0",
+    "icon": "logo.png",
     "publisher": "victorzevallos",
     "engines": {
         "vscode": "^1.55.0"
@@ -18,5 +19,13 @@
                 "path": "./themes/pharo.json"
             }
         ]
+    },
+    "homepage": "https://github.com/victorze/pharo-theme/blob/main/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/victorze/pharo-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/victorze/pharo-theme/issues"
     }
 }
