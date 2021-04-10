@@ -1,0 +1,21 @@
+{
+    "name": "pharo-theme",
+    "displayName": "Pharo Theme",
+    "description": "Pharo Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pharo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pharo.json"
+            }
+        ]
+    }
+}
