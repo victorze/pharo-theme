@@ -1,11 +1,12 @@
 {
+	"$schema": "vscode://schemas/color-theme",
 	"name": "Pharo",
 	"type": "dark",
 	"colors": {
 		"editor.background": "#212121",
 		"editor.foreground": "#c8d2d3",
 		"activityBarBadge.background": "#212121",
-		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBarTitle.foreground": "#c8d2d3",
 		"statusBar.background": "#212121",
 		"statusBar.foreground": "#c8d2d3",
 		"activityBar.background": "#212121",
@@ -30,7 +31,8 @@
 				"variable",
 				"string constant.other.placeholder",
 				"punctuation",
-				"meta.function-call.arguments"
+				"meta.function-call.arguments",
+				"constant.character"
 			],
 			"settings": {
 				"foreground": "#c8d2d3"
@@ -88,17 +90,6 @@
 			}
 		},
 		{
-			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
@@ -129,7 +120,6 @@
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
-				"constant.character",
 				"constant.escape"
 			],
 			"settings": {
@@ -377,11 +367,19 @@
 			"name": "Django",
 			"scope": [
 				"entity.tag.tagbraces.django",
-				"keyword.control.tag-name.django",
-				"keyword.operator.django"
 			],
 			"settings": {
 				"foreground": "#08b065"
+			}
+		},
+		{
+			"name": "Django",
+			"scope": [
+                "string.unquoted.tag-string.django"
+			],
+			"settings": {
+                "fontStyle": "",
+				"foreground": "#c8d2d3"
 			}
 		},
 		{
