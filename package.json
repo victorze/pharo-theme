@@ -2,7 +2,7 @@
     "name": "pharo-theme",
     "displayName": "Pharo Theme",
     "description": "Pharo inspired dark theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icon": "logo.png",
     "publisher": "victorzevallos",
     "engines": {
