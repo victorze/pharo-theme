@@ -3,16 +3,17 @@
     "name": "Pharo",
     "type": "dark",
     "colors": {
-        "editor.background": "#212121",
         "editor.foreground": "#c8d2d3",
-        "activityBarBadge.background": "#66b5bc",
-        "activityBarBadge.foreground": "#212121",
-        "sideBarTitle.foreground": "#c8d2d3",
-        "statusBar.background": "#212121",
-        "statusBar.foreground": "#c8d2d3",
+        "editor.background": "#212121",
+
         "activityBar.background": "#212121",
         "sideBar.background": "#212121",
-        "sideBar.border": "#333333"
+        "sideBar.border": "#333333",
+
+        "activityBarBadge.background": "#66b5bc",
+        "activityBarBadge.foreground": "#212121",
+        "statusBar.foreground": "#c8d2d3",
+        "statusBar.background": "#212121"
     },
     "tokenColors": [
         {
