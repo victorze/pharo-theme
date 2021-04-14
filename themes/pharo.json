@@ -9,11 +9,14 @@
         "activityBar.background": "#212121",
         "sideBar.background": "#212121",
         "sideBar.border": "#333333",
+        "list.activeSelectionBackground": "#2D5053",
+        "list.focusOutline":"#2D5053",
 
         "activityBarBadge.background": "#66b5bc",
         "activityBarBadge.foreground": "#212121",
         "statusBar.foreground": "#c8d2d3",
-        "statusBar.background": "#212121"
+        "statusBar.background": "#212121",
+        "statusBar.debuggingBackground": "#ca781e"
     },
     "tokenColors": [
         {
