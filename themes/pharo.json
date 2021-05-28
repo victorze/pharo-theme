@@ -4,10 +4,10 @@
     "type": "dark",
     "colors": {
         "editor.foreground": "#c8d2d3",
-        "editor.background": "#212121",
+        "editor.background": "#1a1a1a",
 
-        "activityBar.background": "#212121",
-        "sideBar.background": "#212121",
+        "activityBar.background": "#1a1a1a",
+        "sideBar.background": "#1a1a1a",
         "sideBar.border": "#333333",
         "list.activeSelectionBackground": "#2D5053",
         "list.focusOutline":"#2D5053",
@@ -15,7 +15,7 @@
         "activityBarBadge.background": "#66b5bc",
         "activityBarBadge.foreground": "#212121",
         "statusBar.foreground": "#c8d2d3",
-        "statusBar.background": "#212121",
+        "statusBar.background": "#1a1a1a",
         "statusBar.debuggingBackground": "#ca781e"
     },
     "tokenColors": [
@@ -229,12 +229,22 @@
             }
         },
         {
-            "name": "Javascript: Class Component JS, React",
+            "name": "Javascript React: Class Component JS",
             "scope": [
                 "support.class.component.js"
             ],
             "settings": {
-                "foreground": "#08b065"
+                "foreground": "#a7ce67"
+            }
+        },
+        {
+            "name": "Javascript React: Content element",
+            "scope": [
+                "meta.jsx.children.js",
+                "meta.tag.attributes.js keyword.operator.assignment.js"
+            ],
+            "settings": {
+                "foreground": "#C8D2D3"
             }
         },
         {
@@ -292,7 +302,7 @@
                 "entity.name.tag"
             ],
             "settings": {
-                "foreground": "#a7ce67"
+                "foreground": "#E87F76"
             }
         },
         {
@@ -358,10 +368,22 @@
             }
         },
         {
-            "name": "JSON: Puntuation",
+            "name": "JSON: Property",
             "scope": [
+                "support.type.property-name.json",
                 "punctuation.support.type.property-name.begin.json",
                 "punctuation.support.type.property-name.end.json"
+            ],
+            "settings": {
+                "foreground": "#a7ce67"
+            }
+        },
+        {
+            "name": "JSON: Value",
+            "scope": [
+                "string.quoted.double.json",
+                "punctuation.definition.string.end.json",
+                "punctuation.definition.string.begin.json"
             ],
             "settings": {
                 "foreground": "#66b5bc"
@@ -374,7 +396,7 @@
                 "entity.tag.tagbraces.django",
             ],
             "settings": {
-                "foreground": "#08b065"
+                "foreground": "#a7ce67"
             }
         },
         {
@@ -395,7 +417,7 @@
                 "support.function.construct.end.blade"
             ],
             "settings": {
-                "foreground": "#08b065"
+                "foreground": "#a7ce67"
             }
         }
     ]
