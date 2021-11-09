@@ -16,7 +16,9 @@
     "activityBarBadge.foreground": "#212121",
     "statusBar.foreground": "#c6d1d2",
     "statusBar.background": "#212121",
-    "statusBar.debuggingBackground": "#ca781e"
+    "statusBar.debuggingBackground": "#ca781e",
+    "editor.lineHighlightBorder": "#2A2C2E",
+    "editor.lineHighlightBackground": "#2A2C2E"
   },
   "tokenColors": [
     {
